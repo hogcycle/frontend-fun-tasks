@@ -8,12 +8,12 @@ function App(): React.JSX.Element {
             <h1 className="banner" style={{ background: "blue" }}>
                 <span style={{ color: "blue" }}>CISC275</span>
             </h1>
-            <h1 role="banner">Hello Shooters</h1>
+            <h1 role="banner">Hello Everyone</h1>
             <img src={image} alt="up Connector"></img>
             <ul>
-                <li>Use</li>
-                <li>Your</li>
-                <li>Imagination</li>
+                <li>Pineal gland</li>
+                <li>Drain plug</li>
+                <li>Lead pipe</li>
             </ul>
             <Button
                 onClick={() => {
@@ -25,8 +25,8 @@ function App(): React.JSX.Element {
             <div style={{ backgroundColor: "red", width: 500, height: 50 }}>
                 <Container>
                     <Row>
-                        <Col>Terrible</Col>
-                        <Col>Excellence</Col>
+                        <Col>Yang</Col>
+                        <Col>Teng</Col>
                     </Row>
                 </Container>
             </div>
