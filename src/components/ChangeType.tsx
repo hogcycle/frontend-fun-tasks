@@ -14,7 +14,9 @@ export function ChangeType(): React.JSX.Element {
                         setQuestionType("short_answer_question")
                     :   setQuestionType("multiple_choice_question");
                 }}
-            ></Button>
+            >
+                Change Type
+            </Button>
             <div>
                 {questionType === "multiple_choice_question" ?
                     <p>Multiple Choice</p>

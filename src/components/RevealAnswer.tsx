@@ -7,7 +7,7 @@ export function RevealAnswer(): React.JSX.Element {
         <>
             <Button
                 onClick={() => {
-                    setHidden(false);
+                    setHidden(hidden ? false : true);
                 }}
             >
                 Reveal answer
